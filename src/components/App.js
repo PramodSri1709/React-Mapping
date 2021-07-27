@@ -15,13 +15,14 @@ function entry(emojiTerm){
 
     name = {emojiTerm.name}
 
-    meaning = {emojiTerm.meaning}
+    meaning = {emojiTerm.meaning.substring(0,100)}
 
     />
 
   );
 
 }
+
 
 
 function App() {
